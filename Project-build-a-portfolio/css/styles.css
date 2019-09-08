@@ -1,0 +1,55 @@
+.logo-image {
+    width: 120px;
+    height: 100px;
+    justify-content: left;
+}
+
+.center-image {
+    width: 100%;
+}
+
+.card-image {
+    width: 25%;
+    height: 50%;
+}
+
+.card-image1 {
+    width: 40%;
+    height: 55%;
+}
+
+.small-image1 {
+    width: 85% !important;
+}
+
+.small-image2 {
+    width: 75% !important;
+}
+
+.small-image3 {
+    width: 70% !important;
+}
+
+.small-image-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    border-top: 4px solid #524f4f;
+}
+
+.small-image-pad {
+    padding: 0 5px 0 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body {
+        background-color: whitesmoke
+    }
+
+
+}
